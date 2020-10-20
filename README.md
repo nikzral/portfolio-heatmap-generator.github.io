@@ -11,7 +11,7 @@ This tool is very useful to vizualize how your portfolio is doing at any given t
 This tool supports any investment with a variable value, such as stocks, ETFs, Forex, commodities, etc.
 
 # Live Demo
-You can find a live demo of this project at portfolio-heatmap-generator.github.io
+You can find a live demo of this project at https://portfolio-heatmap-generator.github.io
 
 # What can I expect in the future?
 In future renditions of this tool, we will add support for the following issues:
