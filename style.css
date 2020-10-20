@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+body {
+padding: 0;
+margin: 0
+
+
+}
+.header {
+height: 7vh;
+background-color: rgb(75, 86, 114);
+padding: 0;
+margin: 0
+
+}
+.headertext {
+color: white;
+font-family: 'Epilogue', sans-serif;
+padding-top: 2vh;
+padding-left: 2vh;
+margin: 0
+}
+.bodytitle {
+  font-family: 'Epilogue', sans-serif;
+  color: black;
+  padding-left: 2vh;
+}
+
+.type {
+font-family: 'Epilogue', sans-serif;
+  color: gray;
+  padding-left: 1vw;
+  padding-right: 2vw;
+  display: inline-block;
+  font-size: 100%
+
+
+}
+.tickerinput {
+font-family: 'Epilogue', sans-serif;
+color: black;
+display: inline-block;
+height: 3vh;
+}
+.holdingsinput {
+font-family: 'Epilogue', sans-serif;
+color: black;
+display: inline-block;
+height: 3vh;
+width: 8vw
+
+}
+.delete {
+color: red;
+padding-left: 0.5vw;
+font-size: 110%;
+
+
+
+}
+.delete:hover {
+cursor: pointer;
+
+}
+
+.addbutton {
+padding-left: 1vw;
+font-size: 200%;
+color:cornflowerblue;
+
+}
+.addbutton:hover {
+cursor: pointer;
+
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.create {
+font-family: 'Epilogue', sans-serif;
+color: white;
+background-color: cornflowerblue;
+border: none;
+border-radius: 5px;
+width: 28vw;
+height: 3vw;
+font-size: 150%;
+margin-left: 1vw;
+}
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.score {
+height: 6vw;
+width: 6vw;
+font-family: 'Epilogue', sans-serif;
+color: white;
+}

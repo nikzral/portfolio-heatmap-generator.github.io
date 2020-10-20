@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="mapscript.js"></script>
+  
+  <title>heatmap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-select/dist/css/bootstrap-select.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    
+</head>
+<body onload="tf()">
+<link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/84e45c5dbb.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+<div id="container" class="container">
+      
+        <div class="col-sm-12">
+          <h3 class="page-header">Portfolio Heatmap</h3>
+        <table class="table table-striped" id="table-id">
+              
+            
+              <tr>
+                  
+                  <td id="mapholding1" class='score'>1</td>
+                  <td id="mapholding2" class='score'>1</td>
+              </tr>
+              <tr>
+                  
+                  <td id="mapholding3" class='score'>1</td>
+                  <td id="mapholding4" class='score'>1</td>
+              </tr>
+              <tr>
+                  
+                  <td id="mapholding5" class='score'>1</td>
+                  <td id="mapholding6" class='score'>1</td>
+              </tr>
+              <tr>
+                  
+                  <td id="mapholding7" class='score'>1</td>
+                  <td id="mapholding8" class='score'>1</td>
+              </tr>
+              <tr>
+                  
+                  <td id="mapholding9" class='score'>1</td>
+                  <td id="mapholding10" class='score'>1</td>
+              <tr>
+                  
+                  <td id="mapholding11" class='score'>1</td>
+                  <td id="mapholding12" class='score'>1</td>
+              </tr>
+              <tr>
+                  
+                  <td id="mapholding13" class='score'>1</td>
+                  <td id="mapholding14" class='score'>1</td>
+              </tr>
+          </table>
+        </div>
+      </div>
+
+      
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="bower_components/classie/classie.js"></script>
+    <script src="bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+        <!-- build:js(.) scripts/plugins.js -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js?1500"></script>
+        <!-- endbuild -->
+
+        <script>
+            ColorScale('table-id', 'score');
+        </script>
+
+        <script>
+        </script>
+
+
+</body>
+</html>
